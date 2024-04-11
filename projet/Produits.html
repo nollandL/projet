@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Rosiers</title>
+    <link rel="stylesheet" type="text/css" href="css/rosiers.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8"></meta>
+    <script type="text/javascript" src="js/rosiers.js"></script>
+    
+</head>
+<body>
+
+<!--header de la page-->
+<header> 
+    
+    <div id="header_head">
+        <img src="img/Rose.jpg" alt="Rose" width="10%" height="10%"> <!--adapter la taille de l'image avec width et height-->
+        <h1>Société Lafleur</h1>
+    </div>
+
+    <br>
+
+    <div id = "nav">
+        <a href="index.html">Accueil</a>
+        <a href="#">Bulbes</a>
+        <a href="Produits.html" id="current_nav">Rosiers</a>
+        <a href="#">Plantes à massifs</a>
+        <a href="Contact.html">Contact</a>
+        <a href="#">Connexion</a>
+        <a href="#">Panier</a>
+    </div>
+
+</header>
+
+
+
+<!--formulaire du jeune-->
+<div id="main">
+    
+
+    <div id="left">
+        <div id="page">
+            <h2> Sté Lafleur</h2>
+            <a href="index.html">Accueil</a>
+            <br>
+            <br>
+        </div>
+
+        <div id="produits">
+            <h3>Nos produits</h3>
+            <a href="#">Bulbes</a>
+            <a href="#">Rosiers</a>
+            <a href="#">Plantes à massif</a>
+            <a href="Contact.html">Contact</a>
+            
+        </div>
+
+    </div>
+        
+    
+    
+    <!--formulaire textuelle au milieu-->
+    <div id="right">
+        <br>
+
+        <h2>Rosiers</h2>
+
+        <br>
+
+        <table>
+            <tr>
+                <th scope="col">Photo</th>
+                <th scope="col">Référence</th>
+                <th scope="col">Description</th>
+                <th scope="col">Prix</th>
+                <th scope="col" class="stock">Stock</th>
+                <th scope="col">Commande</th>
+              </tr>
+            <tr>
+                <td width="15%">
+                    <!-- Trigger the Modal -->
+                    <img class="myImg" src="img/Rose_rouge.jpg" alt="Rose_rouge" onclick="imgZoom(0)"> <!--adapter la taille de l'image avec width et height-->
+                    
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                    <!-- The Close Button -->
+                    <span class="close" onclick="hideImg()">&times;</span>
+
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img01">
+
+                    <!-- Modal Caption (Image Text) -->
+                    <div id="caption"></div>
+                </div>
+                </td>
+                <td>
+                    r01
+                </td>
+                <td>
+                    1 pied spécial "grandes fleurs"
+                </td>
+                <td>
+                    20€
+                </td>
+                <td class="stock">
+                    10
+                </td>
+                <td>
+                    <input type="button" value="-" id="1" onclick="remove(this.id)" disabled>
+                    <span class="commande">0</span>
+                    <input type="button" value="+" id="10" onclick="add(this.id)">
+                    <br><br>
+                    <input type="button" value="Ajouter au panier">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- Trigger the Modal -->
+                    <img class="myImg" src="img/Rose_rouge.jpg" alt="Rose_rouge" onclick="imgZoom(1)"> <!--adapter la taille de l'image avec width et height-->
+                </td>
+                <td>
+                    r01
+                </td>
+                <td>
+                    1 pied spécial "grandes fleurs"
+                </td>
+                <td>
+                    20€
+                </td>
+                <td class="stock">
+                    10
+                </td>
+                <td>
+                    <input type="button" value="-" id="2" onclick="remove(this.id)" disabled>
+                    <span class="commande"> 0 </span>
+                    <input type="button" value="+" id="20" onclick="add(this.id)">
+                    <br><br>
+                    <input type="button" value="Ajouter au panier">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- Trigger the Modal -->
+                    <img class="myImg" src="img/Rose_rose.jpg" alt="Rose" onclick="imgZoom(2)"> <!--adapter la taille de l'image avec width et height-->
+                </td>
+                <td>
+                    r01
+                </td>
+                <td>
+                    1 pied spécial "grandes fleurs"
+                </td>
+                <td>
+                    20€
+                </td>
+                <td class="stock">
+                    10
+                </td>
+                <td>
+                    <input type="button" value="-" id="3" class="-" onclick="remove(this.id)" disabled>
+                    <span class="commande">0</span>
+                    <input type="button" value="+" id="30" class="+" onclick="add(this.id)">
+                    <br><br>
+                    <input type="button" value="Ajouter au panier">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- Trigger the Modal -->
+                    <img class="myImg" src="img/Rose_rose.jpg" alt="Rose" onclick="imgZoom(2)"> <!--adapter la taille de l'image avec width et height-->
+                </td>
+                <td>
+                    r01
+                </td>
+                <td>
+                    1 pied spécial "grandes fleurs"
+                </td>
+                <td>
+                    20€
+                </td>
+                <td class="stock">
+                    10
+                </td>
+                <td>
+                    <input type="button" value="-" id="4" class="-" onclick="remove(this.id)" disabled>
+                    <span class="commande">0</span>
+                    <input type="button" value="+" id="40" class="+" onclick="add(this.id)">
+                    <br><br>
+                    <input type="button" value="Ajouter au panier">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- Trigger the Modal -->
+                    <img class="myImg" src="img/Rose_rose.jpg" alt="Rose" onclick="imgZoom(2)"> <!--adapter la taille de l'image avec width et height-->
+                </td>
+                <td>
+                    r01
+                </td>
+                <td>
+                    1 pied spécial "grandes fleurs"
+                </td>
+                <td>
+                    20€
+                </td>
+                <td class="stock">
+                    10
+                </td>
+                <td>
+                    <input type="button" value="-" id="5" class="-" onclick="remove(this.id)" disabled>
+                    <span class="commande">0</span>
+                    <input type="button" value="+" id="50" class="+" onclick="add(this.id)">
+                    <br><br>
+                    <input type="button" value="Ajouter au panier">
+                </td>
+            </tr>
+
+        </table>
+        
+        <br>
+        <br>
+        
+        <button onclick="toggleStock()" id="stockButton">Afficher stock</button><br><br>
+    </div>
+    
+</div>
+
+<footer>
+    <div>
+        <p>Copyright Société Lafleur</p>
+
+        <p>Webmaster CY Tech</p>
+    </div>
+</footer>
+<!--
+    commentaire html
+-->
+
+</body>
+</html>
