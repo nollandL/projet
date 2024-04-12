@@ -18,64 +18,11 @@
 	<title>Contact</title>
     <link rel="stylesheet" type="text/css" href="../css/contact.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8"></meta>
-    
-    <script>
-        //commentaire ligne js
-    </script>
+
 </head>
 <body>
 
-<!--header de la page-->
-<header> 
-    
-    <div id="header_head">
-        <img src="img/Rose.jpg" alt="Rose" width="10%" height="10%"> <!--adapter la taille de l'image avec width et height-->
-        <h1>Société Lafleur</h1>
-    </div>
-
-    <br>
-
-    <div id = "nav">
-        <a href="index.html">Accueil</a>
-        <a href="#">Bulbes</a>
-        <a href="Produits.html">Rosiers</a>
-        <a href="#">Plantes à massifs</a>
-        <a href="Contact.html" id="current_nav">Contact</a>
-        <a href="#">Connexion</a>
-        <a href="#">Panier</a>
-    </div>
-
-</header>
-
-
-
-<!--formulaire du jeune-->
-<div id="main">
-    
-
-    <div id="left">
-        <div id="page">
-            <h2> Sté Lafleur</h2>
-            <a href="index.html">Accueil</a>
-            <br>
-            <br>
-        </div>
-
-        <div id="produits">
-            <h3>Nos produits</h3>
-            <a href="#">Bulbes</a>
-            <a href="Produits.html">Rosiers</a>
-            <a href="#">Plantes à massif</a>
-            <a href="Contact.html">Contact</a>
-            
-        </div>
-
-    </div>
-        
-    
-    
-    <!--formulaire textuelle au milieu-->
-    <div id="right">
+<?php require_once('templateHaut.php');?>
         <br>
 
         <h2>Demande de contact</h2>
@@ -181,10 +128,7 @@
         
         <br>
         <br>
-    </div>
-</div>
-
-<?php
+        <?php
     if (isset($_POST['submit']))
     {
         // Instanciation de PHPMailer
@@ -243,16 +187,4 @@
     }
 ?>
 
-<footer>
-    <div>
-        <p>Copyright Société Lafleur</p>
-
-        <p>Webmaster CY Tech</p>
-    </div>
-</footer>
-<!--
-    commentaire html
--->
-
-</body>
-</html>
+<?php require_once('templateBas.php');?>
