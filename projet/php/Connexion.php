@@ -11,54 +11,7 @@ session_start();
 </head>
 <body>
 
-<!--header de la page-->
-<header> 
-    
-    <div id="header_head">
-        <img src="img/Rose.jpg" alt="Rose" width="10%" height="10%"> <!--adapter la taille de l'image avec width et height-->
-        <h1>Société Lafleur</h1>
-    </div>
-
-    <br>
-
-    <div id = "nav">
-        <a href="index.html" id="current_nav">Accueil</a>
-        <a href="#">Bulbes</a>
-        <a href="php/Produits.php?cat=Rosiers">Rosiers</a>
-        <a href="#">Plantes à massifs</a>
-        <a href="Contact.html">Contact</a>
-        <a href="#">Connexion</a>
-        <a href="#">Panier</a>
-    </div>
-
-</header>
-
-
-
-
-<!--milieu-->
-<div id="main">
-    
-
-    <div id="left">
-        <div id="page">
-            <h2> Sté Lafleur</h2>
-            <p>Accueil</p>
-        </div>
-
-        <div id="produits">
-            <h3>Nos produits</h3>
-            <a href="#">Bulbes</a>
-            <a href="Produits.html">Rosiers</a>
-            <a href="#">Plantes à massif</a>
-            <a href="Contact.html">Contact</a>
-            
-        </div>
-
-    </div>
-
-    <!--partie principale-->
-    <div id="right">
+<?phprequire_once('templateHaut.php');?>
         <form action = "verificationConnexion.php" method = "post">
             <table>
                 <tr>
