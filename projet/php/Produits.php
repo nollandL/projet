@@ -36,58 +36,7 @@
 </head>
 <body>
 
-<!--header de la page-->
-<header> 
-    
-    <div id="header_head">
-        <img src="../img/<?=$dataCat[0]['Photo']?>" alt="Rose" width="10%" height="10%"> <!--adapter la taille de l'image avec width et height-->
-        <h1>Société Lafleur</h1>
-    </div>
-
-    <br>
-
-    <div id = "nav">
-        <a href="..">Accueil</a>
-        <a href="#">Bulbes</a>
-        <a href="Produits.php?cat=Rosiers" id="current_nav">Rosiers</a>
-        <a href="#">Plantes à massifs</a>
-        <a href="Contact.html">Contact</a>
-        <a href="#">Connexion</a>
-        <a href="#">Panier</a>
-    </div>
-
-</header>
-
-
-
-<!--formulaire du jeune-->
-<div id="main">
-    
-
-    <div id="left">
-        <div id="page">
-            <h2> Sté Lafleur</h2>
-            <a href="index.html">Accueil</a>
-            <br>
-            <br>
-            <br>
-        </div>
-
-        <div id="produits">
-            <h3>Nos produits</h3>
-            <a href="#">Bulbes</a>
-            <a href="#">Rosiers</a>
-            <a href="#">Plantes à massif</a>
-            <a href="Contact.html">Contact</a>
-            
-        </div>
-
-    </div>
-        
-    
-    
-    <!--formulaire textuelle au milieu-->
-    <div id="right">
+<?php require_once('templateHaut.php');?>
         <br>
 
         <h2>Rosiers</h2>
@@ -165,23 +114,5 @@
         <br>
         
         <button onclick="toggleStock()" id="stockButton">Afficher stock</button><br><br>
-    </div>
-    
-</div>
-
-<footer>
-    <div>
-        <p>Copyright Société Lafleur</p>
-
-        <p>Webmaster CY Tech</p>
-    </div>
-</footer>
-<!--
-    commentaire html
--->
-
-
-
-</body>
-</html>
+<?php require_once('templateBas.php');?>
 
