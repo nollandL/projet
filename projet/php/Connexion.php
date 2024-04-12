@@ -91,21 +91,5 @@ session_start();
             ?>
             <br><br><br><br><br>
         </form>
-    </div>
-</div>
-
-
-
-<footer>
-    <div>
-        <p>Copyright Société Lafleur</p>
-
-        <p>Webmaster CY Tech</p>
-    </div>
-</footer>
-<!--
-    commentaire html
--->
-
-</body>
-</html>
+    
+<?php require_once('templateBas.php')?>
