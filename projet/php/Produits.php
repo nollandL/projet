@@ -31,7 +31,7 @@
 	<title><?=$dataCat[0]['Categorie']?></title>
     <link rel="stylesheet" type="text/css" href="../css/rosiers.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8"></meta>
-    <script type="text/javascript" src="../js/produits?>.js"></script>
+    <script type="text/javascript" src="../js/produits.js"></script>
     
 </head>
 <body>
