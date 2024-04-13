@@ -1,7 +1,17 @@
 [
-{"Categorie":"Rosiers","Produit":"Rose Rouge","Photo":"Rose_rouge.jpg","Reference":"r01","Description":"1 pied sp\u00e9cial \"grandes fleurs\"","Prix":20,"Stock":10},
-{"Categorie":"Rosiers","Produit":"Rose Rouge","Photo":"Rose_rouge.jpg","Reference":"r01","Description":"1 pied sp\u00e9cial \"grandes fleurs\"","Prix":20,"Stock":10},
-{"Categorie":"Rosiers","Produit":"Rose Rose","Photo":"Rose_rose.jpg","Reference":"r02","Description":"1 pied sp\u00e9cial \"grandes fleurs\"","Prix":20,"Stock":15},
-{"Categorie":"Rosiers","Produit":"Rose Rose","Photo":"Rose_rose.jpg","Reference":"r02","Description":"1 pied sp\u00e9cial \"grandes fleurs\"","Prix":20,"Stock":15},
-{"Categorie":"Rosiers","Produit":"Rose Rose","Photo":"Rose_rose.jpg","Reference":"r02","Description":"1 pied sp\u00e9cial \"grandes fleurs\"","Prix":20,"Stock":15}
+    {"Categorie":"Manga","Produit":"One_Piece_Tome_1","Photo":"OnePiece_T1.jpg","Reference":"m01","Description":"One Piece Tome 1","Prix":6.99,"Stock":30},
+    {"Categorie":"Manga","Produit":"Bleach Tome 1","Photo":"Bleach_T1.png","Reference":"m02","Description":"Bleach Tome 1","Prix":6.99,"Stock":30},
+    {"Categorie":"Manga","Produit":"Dragon Ball Tome 1","Photo":"DB_T1.png","Reference":"m03","Description":"Dragon Ball Tome 1","Prix":6.99,"Stock":30},
+    {"Categorie":"Manga","Produit":"Naruto Tome 1","Photo":"Naruto-T1.png","Reference":"m04","Description":"Naruto Tome 1","Prix":6.99,"Stock":30},
+    {"Categorie":"Manga","Produit":"Berserk tome 1","Photo":"Berserk_T1.png","Reference":"m05","Description":"Dragon Ball Tome 1","Prix":6.99,"Stock":30},
+    {"Categorie":"Roman","Produit":"Harry potter Int\u00e9grale","Photo":"HP.png","Reference":"r01","Description":"Harry Potter L'Int\u00e9grale","Prix":79.99,"Stock":10},
+    {"Categorie":"Roman","Produit":"Le Trone de Fer Int\u00e9grale","Photo":"GOT.png","Reference":"r02","Description":"Le Trone de Fer L'Int\u00e9grale","Prix":59.99,"Stock":10},
+    {"Categorie":"Roman","Produit":"Le Sorceleur Int\u00e9grale","Photo":"LeSorceleur.png","Reference":"r03","Description":"Le Sorceleur L'Int\u00e9grale","Prix":89.99,"Stock":10},
+    {"Categorie":"Roman","Produit":"Dune Int\u00e9grale","Photo":"Dune.png","Reference":"r04","Description":"Dune L'Int\u00e9grale","Prix":109.99,"Stock":10},
+    {"Categorie":"Roman","Produit":"Le Seigneur des Anneaux Int\u00e9grale","Photo":"SeigneurdesAnneaux.png","Reference":"r05","Description":"Le Seigneur des Anneaux L'Int\u00e9grale","Prix":78.99,"Stock":10},
+    {"Categorie":"Web Novel","Produit":"I Shall Seal The Heavens Tome 1","Photo":"ISSTH.png","Reference":"m01","Description":"I Shall Seal The Heavens Tome 1","Prix":3.99,"Stock":90},
+    {"Categorie":"Web Novel","Produit":"Reverend Insanity Tome 1","Photo":"RI.png","Reference":"m02","Description":"Reverend Insanity Tome 1","Prix":5.99,"Stock":90},
+    {"Categorie":"Web Novel","Produit":"A Will Eternal Tome 1","Photo":"WE.png","Reference":"m03","Description":"A Will Eternal Tome 1","Prix":3.99,"Stock":90},
+    {"Categorie":"Web Novel","Produit":"The Beginning After The End Tome 1","Photo":"TBATE.png","Reference":"m04","Description":"The Beginning After The End Tome 1","Prix":4.99,"Stock":90},
+    {"Categorie":"Web Novel","Produit":"A Journey to the West","Photo":"JW.png","Reference":"m05","Description":"A Journey to the West Volume 1","Prix":29.99,"Stock":90}
 ]
