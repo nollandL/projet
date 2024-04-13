@@ -11,7 +11,7 @@ session_start();
 </head>
 <body>
 
-<?phprequire_once('templateHaut.php');?>
+<?php require_once('templateHaut.php');?>
         <form action = "verificationConnexion.php" method = "post">
             <table>
                 <tr>
