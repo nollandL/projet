@@ -18,7 +18,7 @@
     // if the category doesn't exist we go back to home page
     if(empty($dataCat))
     {
-        header("Location: ../index.php");
+        header("Location: index.php");
         exit();
     }
 ?>
