@@ -165,8 +165,14 @@ footer {
       font-size: 1.5rem;
   }
 }
+.close 
+{ 
+  cursor : pointer;
+  color: grey;
+  font-size: 48px;
+  text-align: right;
 
-
+}
 
 #produits
 {
