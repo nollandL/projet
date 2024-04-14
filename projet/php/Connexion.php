@@ -8,15 +8,21 @@ session_start();
 	<title>Connexion</title>
     <link rel="stylesheet" type="text/css" href="../css/connexion.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8"></meta>
+    <link rel="icon" type="image/png" href="../img/Logo.jpg">
 </head>
 <body>
 
 <?php require_once('templateHaut.php');?>
+        <br>
+
+        <h2>Connexion</h2>
+
+        <br>
         <form action = "verificationConnexion.php" method = "post">
             <table>
                 <tr>
                     <td>
-                        <label for = "username">Identifiant </label>
+                        <label for = "username">Identifiant : </label>
                     </td>
                     <td>
                         <input type = "text" name = "username" required>
@@ -24,7 +30,7 @@ session_start();
                 </tr>
                 <tr>
                     <td>
-                        <label for = "password">Mot de passe </label>
+                        <label for = "password">Mot de passe : </label>
                     </td>
                     <td>
                         <input type = "password" name = "password" required> 
@@ -32,8 +38,7 @@ session_start();
                 </tr>
             </table>
             <br><br>
-            <input name="submit" type="submit" value="Connexion" id="submit"/>
-
+            <input name="submit" type="submit" value="Connexion" id="submit"/> <br>
 
             <?php 
                 // on verifie si la personne a essayé de se connecter et à échoué
