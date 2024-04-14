@@ -34,7 +34,7 @@
         <?php
             foreach($differentsCat as $catName)
                 echo '<a href="Produits.php?cat='.$catName.'">'.$catName.'</a>';
-
+            echo '<a href="Panier.php">Panier</a>';
             echo '<a href="Contact.php">Contact</a>';
     
             if(isset($_SESSION["connecte"]) && $_SESSION["connecte"] == true)
