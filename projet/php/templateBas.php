@@ -3,7 +3,8 @@
 
 <footer>
     <div>
-        <p>Copyright Société Lafleur</p>
+        
+        <p>Copyright Société BookIn</p>
 
         <p>Webmaster CY Tech</p>
     </div>
