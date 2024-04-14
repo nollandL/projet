@@ -151,7 +151,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <label for="contenu">Contenu :</label>
                     </td>
                     <td>
-                        <textarea  id="contenu" name="contenu" cols="100" rows="5" placeholder="Tapez ici votre mail"><?php echo isset($_POST['contenue']) ? $_POST['contenue'] : ''; ?></textarea><br><br>
+                        <textarea  id="contenu" name="contenu" cols="100" rows="5"  placeholder="Tapez ici votre mail"><?php echo isset($_POST['contenue']) ? $_POST['contenue'] : ''; ?></textarea><br><br>
                     </td>
                 </tr>
          
