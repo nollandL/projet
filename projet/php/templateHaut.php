@@ -23,8 +23,8 @@
 <header> 
     
     <div id="header_head">
-        <img src="../img/Rose_Rouge.jpg" alt="Rose" width="10%" height="10%"> <!--adapter la taille de l'image avec width et height-->
-        <h1>Société Lafleur</h1>
+        <img src="../img/Logo.jpg" alt="Logp" width="10%" height="10%"> <!--adapter la taille de l'image avec width et height-->
+        <h1>Société BookIn</h1>
     </div>
 
     <br>
@@ -58,7 +58,7 @@
 
     <div id="left">
         <div id="page">
-            <h2> Sté Lafleur</h2>
+            <h2> Sté BookIn</h2>
             <p>Accueil</p>
         </div>
 
