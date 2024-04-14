@@ -1,6 +1,6 @@
 [
     {"Categorie":"Manga","Produit":"One_Piece_Tome_1","Photo":"OnePiece_T1.jpg","Reference":"m01","Description":"One Piece Tome 1","Prix":6.99,"Stock":30},
-    {"Categorie":"Manga","Produit":"Bleach _Tome_1","Photo":"Bleach_T1.png","Reference":"m02","Description":"Bleach Tome 1","Prix":6.99,"Stock":30},
+    {"Categorie":"Manga","Produit":"Bleach_Tome_1","Photo":"Bleach_T1.png","Reference":"m02","Description":"Bleach Tome 1","Prix":6.99,"Stock":30},
     {"Categorie":"Manga","Produit":"Dragon_Ball_Tome_1","Photo":"DB_T1.png","Reference":"m03","Description":"Dragon Ball Tome 1","Prix":6.99,"Stock":30},
     {"Categorie":"Manga","Produit":"Naruto_Tome_1","Photo":"Naruto-T1.png","Reference":"m04","Description":"Naruto Tome 1","Prix":6.99,"Stock":30},
     {"Categorie":"Manga","Produit":"Berserk_Tome_1","Photo":"Berserk_T1.png","Reference":"m05","Description":"Dragon Ball Tome 1","Prix":6.99,"Stock":30},
