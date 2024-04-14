@@ -51,9 +51,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="fr">
 <head>
 	<title>Contact</title>
-    <link rel="stylesheet" type="text/css" href="../css/contact.css">
+	<link rel="stylesheet" type="text/css" href="../css/contact.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8"></meta>
-    <script type="text/javascript" src="../js/Contact.js"></script>
+	<script type="text/javascript" src="../js/Contact.js"></script>
+	<link rel="icon" type="image/png" href="../img/Logo.jpg">
 </head>
 <body>
 
