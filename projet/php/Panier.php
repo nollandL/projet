@@ -9,7 +9,7 @@
     // We get the data we need for this page (the category we need)
     foreach($data as $prod)
     {
-        if(isset($_SESSION[$prod['Reference']]))
+        if(isset($_SESSION[$prod['Reference']]) and $_SESSION[$prod['Reference']] > 0)
         {
             array_push($dataPanier, $prod);
         }
@@ -42,7 +42,7 @@
         <h2>Rosiers</h2>
 
         <br>
-        <form action="ajoutPanier.php" method="post">
+        <form action="ajoutPanier_Panier.php" method="post">
             <table>
                 <tr>
                     <th scope="col">Photo</th>
