@@ -94,7 +94,31 @@ function hideImg(i) {
     modal.style.display = "none";
 }
 
+function command(count){
+    
+    // faut unset le panier, afficher le prix et mrc pr les e
+    var sommeCommande = 0;
+    var commandes = document.getElementsByClassName("commande");
+    var prix = document.getElementsByClassName("prix");
 
+    for (let i = 0; i < count; i++) 
+    {
+
+        // Regular expression to match floating-point number
+        var regex = /[\d\.]+/;
+
+        // Match the floating-point number part of the string
+        var match = prix[i].innerHTML.match(regex);
+
+        // Convert matched substring to float
+        var floatValue = parseFloat(match[0]);
+
+        sommeCommande += commandes[i].value * floatValue;
+    }
+
+    alert("Merci pour votre commande ! Cela fera "+sommeCommande.toFixed(2)+"€ a régler avec le livreur.");
+    window.location.href = "Panier.php?unset=1";
+}
 
 
 
