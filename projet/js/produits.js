@@ -96,7 +96,6 @@ function hideImg(i) {
 
 function command(count){
     
-    // faut unset le panier, afficher le prix et mrc pr les e
     var sommeCommande = 0;
     var commandes = document.getElementsByClassName("commande");
     var prix = document.getElementsByClassName("prix");
