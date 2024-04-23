@@ -117,6 +117,7 @@
         <br>
         <br>
         
-        <button onclick="toggleStock()" id="stockButton">Afficher stock</button><br>
+        <button onclick="toggleStock()" id="stockButton">Afficher stock</button>
+        <button onclick="command()" id="commandButton">Commander</button><br><br>
 <?php require_once('templateBas.php');?>
 
