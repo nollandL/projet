@@ -25,14 +25,15 @@
     if($conditions) // si l'identifiant et le mot de passe correspondent
     {
         $_SESSION['connecte'] = true;
-        $_SESSION["id"] = $dataSession[$_SESSION['username']][1];
+        $_SESSION["id"] = $dataSession[$_SESSION['username']];
         
-        $home = "..";       
+        $home = "index.php";       
     }
     else
     {
         $home="connexion.php";
     }
+    echo "alert($conditions);";
     echo "<script> window.location.replace('".$home."'); </script>";
 ?>
 
