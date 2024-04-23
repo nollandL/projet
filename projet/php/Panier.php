@@ -39,8 +39,6 @@
 <?php require_once('templateHaut.php');?>
         <br>
 
-        <h2>Rosiers</h2>
-
         <br>
         <form action="ajoutPanier_Panier.php" method="post">
             <table>
