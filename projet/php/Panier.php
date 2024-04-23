@@ -17,8 +17,9 @@
 
     // if the category doesn't exist we go back to home page
     if(empty($dataPanier))
-    {
-        header("Location: index.php");
+    {   
+        echo '<script>alert("Votre panier est vide.");</script>';
+        echo '<script>location="index.php";</script>';
         exit();
     }
 ?>
