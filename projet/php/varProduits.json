@@ -9,9 +9,9 @@
     {"Categorie":"Roman","Produit":"Le_Sorceleur_Int\u00e9grale","Photo":"LeSorceleur.png","Reference":"r03","Description":"Le Sorceleur L'Int\u00e9grale","Prix":89.99,"Stock":10},
     {"Categorie":"Roman","Produit":"Dune_Int\u00e9grale","Photo":"Dune.png","Reference":"r04","Description":"Dune L'Int\u00e9grale","Prix":109.99,"Stock":10},
     {"Categorie":"Roman","Produit":"Le_Seigneur_des_Anneaux_Int\u00e9grale","Photo":"SeigneurdesAnneaux.png","Reference":"r05","Description":"Le Seigneur des Anneaux L'Int\u00e9grale","Prix":78.99,"Stock":10},
-    {"Categorie":"Web Novel","Produit":"I_Shall_Seal_The_Heavens_Tome_1","Photo":"ISSTH.png","Reference":"m01","Description":"I Shall Seal The Heavens Tome 1","Prix":3.99,"Stock":90},
-    {"Categorie":"Web Novel","Produit":"Reverend_Insanity_Tome_1","Photo":"RI.png","Reference":"m02","Description":"Reverend Insanity Tome 1","Prix":5.99,"Stock":90},
-    {"Categorie":"Web Novel","Produit":"A_Will_Eternal_Tome_1","Photo":"WE.png","Reference":"m03","Description":"A Will Eternal Tome 1","Prix":3.99,"Stock":90},
-    {"Categorie":"Web Novel","Produit":"The_Beginning_After_The_End_Tome_1","Photo":"TBATE.png","Reference":"m04","Description":"The Beginning After The End Tome 1","Prix":4.99,"Stock":90},
-    {"Categorie":"Web Novel","Produit":"A_Journey_to_the_West","Photo":"JW.png","Reference":"m05","Description":"A Journey to the West Volume 1","Prix":29.99,"Stock":90}
+    {"Categorie":"Web Novel","Produit":"I_Shall_Seal_The_Heavens_Tome_1","Photo":"ISSTH.png","Reference":"w01","Description":"I Shall Seal The Heavens Tome 1","Prix":3.99,"Stock":90},
+    {"Categorie":"Web Novel","Produit":"Reverend_Insanity_Tome_1","Photo":"RI.png","Reference":"w02","Description":"Reverend Insanity Tome 1","Prix":5.99,"Stock":90},
+    {"Categorie":"Web Novel","Produit":"A_Will_Eternal_Tome_1","Photo":"WE.png","Reference":"w03","Description":"A Will Eternal Tome 1","Prix":3.99,"Stock":90},
+    {"Categorie":"Web Novel","Produit":"The_Beginning_After_The_End_Tome_1","Photo":"TBATE.png","Reference":"w04","Description":"The Beginning After The End Tome 1","Prix":4.99,"Stock":90},
+    {"Categorie":"Web Novel","Produit":"A_Journey_to_the_West","Photo":"JW.png","Reference":"w05","Description":"A Journey to the West Volume 1","Prix":29.99,"Stock":90}
 ]
