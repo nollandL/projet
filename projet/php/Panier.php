@@ -15,6 +15,17 @@
         }
     }
 
+    // We unset the products if they were commanded
+    if(isset($_GET['unset']) && $_GET['unset'] == 1)
+    {
+        
+        foreach($dataPanier as $prod)
+        {
+            unset($_SESSION[$prod['Reference']]);
+        }
+        echo '<script>location="index.php";</script>';
+    }
+
     // if the category doesn't exist we go back to home page
     if(empty($dataPanier))
     {   
@@ -78,7 +89,7 @@
                         <td>
                             <?=$dataPanier[$i]['Description']?>
                         </td>
-                        <td>
+                        <td class="prix">
                             <?=$dataPanier[$i]['Prix']?>€
                         </td>
                         <td class="stock">
@@ -119,6 +130,6 @@
         <br>
         
         <button onclick="toggleStock()" id="stockButton">Afficher stock</button>
-        <button id="commandButton">Commander</button><br><br>
+        <button onclick="command(<?=count($dataPanier)?>)" id="commandButton" name="commandButton">Commander</button><br><br>
 <?php require_once('templateBas.php');?>
 
