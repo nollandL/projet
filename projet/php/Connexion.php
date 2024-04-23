@@ -44,7 +44,7 @@ session_start();
                 // on verifie si la personne a essayé de se connecter et à échoué
                 if(isset($_SESSION['connecte']) && $_SESSION['connecte'] == false){
                     echo "<p style=\"color:red\"> Le nom d'utilisateur ou le mot de est incorrect <p>";
-                    $_SESSION['connecte'] = true; // juste pour éviter que le message réapparaisse à chaque fois
+                    unset($_SESSION['connecte']); // juste pour éviter que le message réapparaisse à chaque fois
                 }
             ?>
             <br><br><br><br><br>
