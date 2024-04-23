@@ -27,7 +27,7 @@
     // détruit la session
     session_destroy();
 
-    echo "<script> window.location.replace(\"..\");</script>";
+    echo "<script> window.location.replace(\"index.php\");</script>";
 
 ?>
 
@@ -37,11 +37,3 @@
 
 </body>
 </html>
-
-
-
-<?php
-
-
-    
-?>
