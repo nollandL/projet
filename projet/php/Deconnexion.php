@@ -2,7 +2,7 @@
     session_start();
     if(!isset($_SESSION["connecte"]) || $_SESSION["connecte"] === false)
     {
-        header("Location: ..");
+        header("Location: index.php");
         die();
     }
 ?>
