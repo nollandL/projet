@@ -81,19 +81,25 @@
                             <?=$dataPanier[$i]['Prix']?>€
                         </td>
                         <td class="stock">
-                            <?=$_SESSION[$dataPanier[$i]['Reference']]?>
+                            <?=$dataPanier[$i]['Stock']?>
                         </td>
                         <td>
                             <input type="button" value="-" id=<?=($i+1)?> onclick="remove(this.id)"<?php
                             if(!isset($_SESSION[$dataPanier[$i]['Reference']]) || $_SESSION[$dataPanier[$i]['Reference']] <= 0)
                                 echo "disabled";
                             ?>>
-                            <input type="number" class="commande" name="<?=$dataPanier[$i]['Reference']?>[]" value="<?php
-                                if(isset($_SESSION[$dataPanier[$i]['Reference']]))
-                                    echo $_SESSION[$dataPanier[$i]['Reference']];
-                                else
-                                    echo 0;
-                            ?>" readonly>
+                            <input type="number" class="commande" name="<?=$dataPanier[$i]['Reference']?>[]" value="0" readonly>
+                            <?php
+                                if(isset($_SESSION[$dataPanier[$i]['Reference']]))  // we need to add the right number to the command
+                                {   
+                                    $idAdd = ($i+1)*10;
+                                    echo '<script>';
+                                    for($j = 0; $j < $_SESSION[$dataPanier[$i]['Reference']]; $j++){
+                                        echo 'add('.$idAdd.');'; // we use the javascipt function so the buttons are disabled if needed
+                                    }
+                                    echo '</script>';
+                                }
+                            ?>
                             <input type="button" value="+" id=<?=($i+1)*10?> onclick="add(this.id)"<?php
                             if(isset($_SESSION[$dataPanier[$i]['Reference']]) && $_SESSION[$dataPanier[$i]['Reference']] >= $dataPanier[$i]['Stock'])
                                 echo "disabled";
@@ -111,6 +117,6 @@
         <br>
         <br>
         
-        <button onclick="toggleStock()" id="stockButton">Afficher stock</button><br><br>
+        <button onclick="toggleStock()" id="stockButton">Afficher stock</button><br>
 <?php require_once('templateBas.php');?>
 
