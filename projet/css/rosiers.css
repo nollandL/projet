@@ -255,6 +255,11 @@ table {
   animation-duration: 0.6s;
 }
 
+.stock
+{
+  display : none;
+}
+
 
 
 
