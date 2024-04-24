@@ -115,7 +115,7 @@ function command(count){
         sommeCommande += commandes[i].value * floatValue;
     }
 
-    alert("Merci pour votre commande ! Cela fera "+sommeCommande.toFixed(2)+"€ a régler avec le livreur.");
+    alert("Merci pour votre commande ! Cela fera "+sommeCommande.toFixed(2)+"€ à régler avec le livreur.");
     window.location.href = "Panier.php?unset=1";
 }
 
