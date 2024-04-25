@@ -1,0 +1,17 @@
+[
+    {"Categorie":"Manga","Produit":"One_Piece_Tome_1","Photo":"OnePiece_T1.jpg","Reference":"m01","Description":"One Piece Tome 1","Prix":6.99,"Stock":30},
+    {"Categorie":"Manga","Produit":"Bleach_Tome_1","Photo":"Bleach_T1.png","Reference":"m02","Description":"Bleach Tome 1","Prix":6.99,"Stock":30},
+    {"Categorie":"Manga","Produit":"Dragon_Ball_Tome_1","Photo":"DB_T1.png","Reference":"m03","Description":"Dragon Ball Tome 1","Prix":6.99,"Stock":30},
+    {"Categorie":"Manga","Produit":"Naruto_Tome_1","Photo":"Naruto-T1.png","Reference":"m04","Description":"Naruto Tome 1","Prix":6.99,"Stock":30},
+    {"Categorie":"Manga","Produit":"Berserk_Tome_1","Photo":"Berserk_T1.png","Reference":"m05","Description":"Dragon Ball Tome 1","Prix":6.99,"Stock":30},
+    {"Categorie":"Roman","Produit":"Harry_Potter_Int\u00e9grale","Photo":"HP.png","Reference":"r01","Description":"Harry Potter L'Int\u00e9grale","Prix":79.99,"Stock":10},
+    {"Categorie":"Roman","Produit":"Le_Trone_de_Fer_Int\u00e9grale","Photo":"GOT.png","Reference":"r02","Description":"Le Trone de Fer L'Int\u00e9grale","Prix":59.99,"Stock":10},
+    {"Categorie":"Roman","Produit":"Le_Sorceleur_Int\u00e9grale","Photo":"LeSorceleur.png","Reference":"r03","Description":"Le Sorceleur L'Int\u00e9grale","Prix":89.99,"Stock":10},
+    {"Categorie":"Roman","Produit":"Dune_Int\u00e9grale","Photo":"Dune.png","Reference":"r04","Description":"Dune L'Int\u00e9grale","Prix":109.99,"Stock":10},
+    {"Categorie":"Roman","Produit":"Le_Seigneur_des_Anneaux_Int\u00e9grale","Photo":"SeigneurdesAnneaux.png","Reference":"r05","Description":"Le Seigneur des Anneaux L'Int\u00e9grale","Prix":78.99,"Stock":10},
+    {"Categorie":"Web Novel","Produit":"I_Shall_Seal_The_Heavens_Tome_1","Photo":"ISSTH.png","Reference":"w01","Description":"I Shall Seal The Heavens Tome 1","Prix":3.99,"Stock":90},
+    {"Categorie":"Web Novel","Produit":"Reverend_Insanity_Tome_1","Photo":"RI.png","Reference":"w02","Description":"Reverend Insanity Tome 1","Prix":5.99,"Stock":90},
+    {"Categorie":"Web Novel","Produit":"A_Will_Eternal_Tome_1","Photo":"WE.png","Reference":"w03","Description":"A Will Eternal Tome 1","Prix":3.99,"Stock":90},
+    {"Categorie":"Web Novel","Produit":"The_Beginning_After_The_End_Tome_1","Photo":"TBATE.png","Reference":"w04","Description":"The Beginning After The End Tome 1","Prix":4.99,"Stock":90},
+    {"Categorie":"Web Novel","Produit":"A_Journey_to_the_West","Photo":"JW.png","Reference":"w05","Description":"A Journey to the West Volume 1","Prix":29.99,"Stock":90}
+]
