@@ -1,0 +1,17 @@
+INSERT INTO livres (Reference, Categorie, Produit, Photo, Description, Prix, Stock) VALUES ('m01', 'Manga', 'One_Piece_Tome_1', 'OnePiece_T1.jpg', 'One Piece Tome 1', 6.99, 30);
+INSERT INTO livres (Reference, Categorie, Produit, Photo, Description, Prix, Stock) VALUES ('m02', 'Manga', 'Bleach_Tome_1', 'Bleach_T1.png', 'Bleach Tome 1', 6.99, 30);
+INSERT INTO livres (Reference, Categorie, Produit, Photo, Description, Prix, Stock) VALUES ('m03', 'Manga', 'Dragon_Ball_Tome_1', 'DB_T1.png', 'Dragon Ball Tome 1', 6.99, 30);
+INSERT INTO livres (Reference, Categorie, Produit, Photo, Description, Prix, Stock) VALUES ('m04', 'Manga', 'Naruto_Tome_1', 'Naruto-T1.png', 'Naruto Tome 1', 6.99, 30);
+INSERT INTO livres (Reference, Categorie, Produit, Photo, Description, Prix, Stock) VALUES ('m05', 'Manga', 'Berserk_Tome_1', 'Berserk_T1.png', 'Dragon Ball Tome 1', 6.99, 30);
+INSERT INTO livres (Reference, Categorie, Produit, Photo, Description, Prix, Stock) VALUES ('r01', 'Roman', 'Harry_Potter_Intégrale', 'HP.png', 'Harry Potter L''Intégrale', 79.99, 10);
+INSERT INTO livres (Reference, Categorie, Produit, Photo, Description, Prix, Stock) VALUES ('r02', 'Roman', 'Le_Trone_de_Fer_Intégrale', 'GOT.png', 'Le Trone de Fer L''Intégrale', 59.99, 10);
+INSERT INTO livres (Reference, Categorie, Produit, Photo, Description, Prix, Stock) VALUES ('r03', 'Roman', 'Le_Sorceleur_Intégrale', 'LeSorceleur.png', 'Le Sorceleur L''Intégrale', 89.99, 10);
+INSERT INTO livres (Reference, Categorie, Produit, Photo, Description, Prix, Stock) VALUES ('r04', 'Roman', 'Dune_Intégrale', 'Dune.png', 'Dune L''Intégrale', 109.99, 10);
+INSERT INTO livres (Reference, Categorie, Produit, Photo, Description, Prix, Stock) VALUES ('r05', 'Roman', 'Le_Seigneur_des_Anneaux_Intégrale', 'SeigneurdesAnneaux.png', 'Le Seigneur des Anneaux L''Intégrale', 78.99, 10);
+INSERT INTO livres (Reference, Categorie, Produit, Photo, Description, Prix, Stock) VALUES ('w01', 'Web Novel', 'I_Shall_Seal_The_Heavens_Tome_1', 'ISSTH.png', 'I Shall Seal The Heavens Tome 1', 3.99, 90);
+INSERT INTO livres (Reference, Categorie, Produit, Photo, Description, Prix, Stock) VALUES ('w02', 'Web Novel', 'Reverend_Insanity_Tome_1', 'RI.png', 'Reverend Insanity Tome 1', 5.99, 90);
+INSERT INTO livres (Reference, Categorie, Produit, Photo, Description, Prix, Stock) VALUES ('w03', 'Web Novel', 'A_Will_Eternal_Tome_1', 'WE.png', 'A Will Eternal Tome 1', 3.99, 90);
+INSERT INTO livres (Reference, Categorie, Produit, Photo, Description, Prix, Stock) VALUES ('w04', 'Web Novel', 'The_Beginning_After_The_End_Tome_1', 'TBATE.png', 'The Beginning After The End Tome 1', 4.99, 90);
+INSERT INTO livres (Reference, Categorie, Produit, Photo, Description, Prix, Stock) VALUES ('w05', 'Web Novel', 'A_Journey_to_the_West', 'JW.png', 'A Journey to the West Volume 1', 29.99, 90);
+INSERT INTO utilisateurs (nom, password) VALUES ('john_doe', '123');
+INSERT INTO utilisateurs (nom, password) VALUES ('a', 'a');
